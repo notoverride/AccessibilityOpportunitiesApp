@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">AccessibilityOpportunitiesApp</string>
+    <string name="priority">Порядок навигации по элементам</string>
+    <string name="edit_texts">Редактируемые элементы</string>
+    <string name="custom_actions">Озвучка дополнительных actions</string>
+    <string name="custom_switch">Озвучка state и actions в кастомном вью</string>
+    <string name="changing_states">Озвучка изменяющегося состояния элемента</string>
+    <string name="recycler_view_scrolling">Скролл в RecyclerView</string>
+
+    <string name="priority_bad_description">Обычный порядок навигации по элементам</string>
+    <string name="priority_good_description">Кастомный порядок навигации по элементам</string>
+    <string name="first_element">Элемент 1</string>
+    <string name="second_element">Элемент 2</string>
+    <string name="third_element">Элемент 3</string>
+    <string name="fourth_element">Элемент 4</string>
+    <string name="increment">Прибавить 1</string>
+
+    <string name="switch_compat_description">Озвучка встроенного switch по умолчанию</string>
+
+    <string name="edit_texts_bad_description">Поле с некорректной озвучкой</string>
+    <string name="edit_texts_hint_description">Поле с проставленным атрибутом hint</string>
+    <string name="edit_texts_label_description">Поле с использованием labelFor</string>
+    <string name="password">Пароль</string>
+    <string name="title">Заголовок</string>
+    <string name="error_description">Описание ошибки</string>
+
+    <string name="first_tariff_label">Тариф 1</string>
+    <string name="second_tariff_label">Тариф 2</string>
+    <string name="third_tariff_label">Тариф 3</string>
+    <string name="custom_switch_content_description">Выбор тарифа</string>
+    <string name="custom_switch_action_name">Выбрать тариф</string>
+
+    <string name="edit_item">Редактировать элемент</string>
+    <string name="actions_bad_description">Озвучка действий нажатия и длительного нажатия по умолчанию.</string>
+    <string name="no_actions_description">Отключенная озвучка действия</string>
+
+    <string name="recycler_view_non_scrolling_description">Talkback не озвучивает весь список элементов в RecyclerView.</string>
+    <string name="recycler_view_scrolling_description">Talkback озвучивает весь список элементов в RecyclerView.</string>
+
+    <string name="changes_bad_description">Отсутствует обновление информации при изменении состояния элемента</string>
+    <string name="changes_good_description">Есть озвучка актуального состояния элемента</string>
+    <string name="content_description_favorite">Элемент в избранном</string>
+    <string name="content_description_not_favorite">Элемент не в избранном</string>
+    <string name="content_description_action_favorite">Добавить в избранное</string>
+    <string name="content_description_action_remove_from_favorites">Удалить из избранного</string>
+</resources>

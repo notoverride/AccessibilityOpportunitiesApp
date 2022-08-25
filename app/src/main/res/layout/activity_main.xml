@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/priority_button"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="start"
+            android:text="@string/priority" />
+
+        <Button
+            android:id="@+id/edittext_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_texts" />
+
+        <Button
+            android:id="@+id/roles_and_actions_button"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="start"
+            android:text="@string/custom_actions" />
+
+        <Button
+            android:id="@+id/custom_switch_button"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="start"
+            android:text="@string/custom_switch" />
+
+        <Button
+            android:id="@+id/state_changes_button"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="start"
+            android:text="@string/changing_states" />
+
+        <Button
+            android:id="@+id/recycler_view_scrolling_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recycler_view_scrolling" />
+
+    </LinearLayout>
+
+</ScrollView>
